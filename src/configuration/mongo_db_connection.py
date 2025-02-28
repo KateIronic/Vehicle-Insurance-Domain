@@ -20,7 +20,7 @@ class MongoDBClient:
         A shared MongoClient instance for the class.
     database : Database
         The specific database instance that MongoDBClient connects to.
-
+ 
     Methods:
     -------
     __init__(database_name: str) -> None
